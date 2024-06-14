@@ -1010,6 +1010,14 @@ p.additional-text a {
        border-radius: var(--_radius-s);
   font: normal 400 1.5rem/1 var(--_font-default);
   font-variant-numeric: lining-nums;
+  cursor: pointer;
+}
+span.rounded-tag:hover {
+  background: #aa70e0;
+}
+span.rounded-tag a {
+  text-decoration: none;
+  color: #fff;
 }
 .rounded-tag.tag-base {
   background-color: var(--base);
@@ -3001,7 +3009,7 @@ form textarea:required:valid {
   margin-bottom: 3rem;
 }
 .avatar__block:first-child {
-  margin-bottom: 3.6rem;
+  margin-bottom: 4rem;
 }
 .avatar__block:last-child {
   margin-bottom: 0;
@@ -3011,7 +3019,7 @@ form textarea:required:valid {
     margin-bottom: 4rem;
   }
   .avatar__block:first-child {
-    margin-bottom: 4.4rem;
+    margin-bottom: 5rem;
   }
 }
 @media only screen and (min-width: 992px) {
