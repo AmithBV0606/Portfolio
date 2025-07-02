@@ -1,10 +1,14 @@
-import { Button } from "@/components/ui/button";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <div>
-      <p className="text-2xl font-bold underline">Hello World!!</p>
-      <Button variant={"destructive"}>Click Me</Button>
+      <Navbar />
+      <div className="w-full text-center mt-10">
+        <p className="text-2xl font-bold underline">
+          Welcome to HomePage!!
+        </p>
+      </div>
     </div>
   );
 }
