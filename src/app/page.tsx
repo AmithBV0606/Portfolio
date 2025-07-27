@@ -1,20 +1,17 @@
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
+import TechStackSection from "@/components/TechStackSection";
 
 export default function Home() {
   return (
     <div className="flex flex-col gap-y-12 px-4 py-8 sm:px-8 lg:px-16">
       <Navbar />
 
-      {/* <div className="w-full text-center mt-10">
-        <p className="text-2xl font-bold underline">
-          Welcome to HomePage!!
-        </p>
-      </div> */}
-
       <HeroSection />
 
-      {/* <DummyContent /> */}
+      <TechStackSection />
+
+      <DummyContent />
     </div>
   );
 }
