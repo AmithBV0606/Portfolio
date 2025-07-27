@@ -5,18 +5,18 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <section className="relative top-20 md:top-36 container mx-auto w-auto">
-      <div className="flex flex-col items-center text-center sm:flex-row sm:items-start sm:gap-8 sm:text-left md:pl-16">
-        <div className="overflow-hidden sm:shrink-0 sm:overflow-hidden sm:rounded-lg">
+      <div className="flex flex-col items-center text-center sm:flex-row sm:items-start sm:gap-8 sm:text-left">
+        <div className="overflow-hidden sm:shrink-0 sm:overflow-hidden sm:rounded-lg my-auto">
           <Image
             src={"/images/Me.jpeg"}
-            height={245}
-            width={245}
+            height={240}
+            width={240}
             alt="Image"
             className="rounded-full object-contain"
           />
         </div>
 
-        <div className="mt-10 sm:mt-0 sm:max-w-xl">
+        <div className="mt-10 sm:mt-0 sm:max-w-2xl">
           <h1 className="font-custom text-foreground text-center sm:text-start text-4xl font-extrabold sm:text-5xl">
             {SITE.title}
           </h1>

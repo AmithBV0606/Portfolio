@@ -3,7 +3,7 @@ import type { IconMap, SocialLink, Site, Technologies } from '@/types/index';
 export const SITE: Site = {
   title: 'Amith B V',
   description:
-    "I'm a Full Stack Developer with a passion for creating web applications. I have experience in both front-end and back-end development, and I'm always eager to learn new technologies and improve my skills. I enjoy collaborating with teams and contributing to projects that make a difference.",
+    "I'm a Full Stack Developer with a strong passion for building scalable and user-friendly web applications. With hands-on experience in both front-end and back-end development, I enjoy turning ideas into real-world solutions. I'm constantly learning new technologies to stay ahead in the ever-evolving tech landscape and take pride in writing clean, efficient code. I thrive in collaborative environments and love contributing to impactful projects that solve real problems.",
   href: 'https://cojocarudavid.me',
   author: 'Amith B V',
   locale: 'en-US',
