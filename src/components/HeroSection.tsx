@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="relative top-24 md:top-44 container mx-auto w-auto">
+    <section className="relative top-20 md:top-36 container mx-auto w-auto">
       <div className="flex flex-col items-center text-center sm:flex-row sm:items-start sm:gap-8 sm:text-left md:pl-16">
         <div className="overflow-hidden sm:shrink-0 sm:overflow-hidden sm:rounded-lg">
           <Image
