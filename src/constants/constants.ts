@@ -58,44 +58,67 @@ export const ICON_MAP: IconMap = {
 }
 
 export const technologies: Technologies = {
-  'Web Development': [
+  'Frontend': [
     { text: 'HTML', logo: 'mdi:language-html5' },
-    { text: 'JavaScript', logo: 'mdi:language-javascript' },
     { text: 'CSS', logo: 'mdi:language-css3' },
-    { text: 'PHP', logo: 'mdi:language-php' },
-    { text: 'Astro', logo: 'simple-icons:astro' },
     { text: 'Tailwind CSS', logo: 'mdi:tailwind' },
+    { text: 'Shadcn', logo: 'simple-icons:shadcnu' },
+    { text: 'Material UI', logo: 'mdi:material-ui' },
+    { text: 'JavaScript', logo: 'mdi:language-javascript' },
+    { text: 'TypeScript', logo: 'mdi:language-typescript' },
+    { text: 'ReactJs', logo: 'mdi:react' },
+    { text: 'NextJs', logo: 'simple-icons:nextdotjs' },
+
+  ],
+  'Backend': [
+    { text: 'NodeJs', logo: 'simple-icons:nodedotjs' },
+    { text: 'Bun', logo: 'simple-icons:bun' },
+    { text: 'ExpressJs', logo: 'simple-icons:express' },
+    { text: 'HonoJs', logo: 'simple-icons:hono' },
+    { text: 'NestJs', logo: 'simple-icons:nestjs' },
+    { text: 'JsonWebToken', logo: 'simple-icons:jsonwebtokens' },
+    { text: 'Socket.io', logo: 'simple-icons:socketdotio' },
+  ],
+  Databases: [
+    { text: 'PostgreSQL', logo: 'cib:postgresql' },
+    { text: 'MongoDB', logo: 'cib:mongodb' },
+    { text: 'Redis', logo: 'cib:redis' },
+  ],
+  'Package Managers': [
+    { text: 'NPM', logo: 'mdi:npm' },
+    { text: 'Yarn', logo: 'cib:yarn' },
+    { text: 'Pnpm', logo: 'simple-icons:pnpm' },
+  ],
+  'Deployment':[
+    { text: 'Vercel', logo: 'simple-icons:vercel' },
+    { text: 'Netlify', logo: 'cib:netlify' },
+    { text: 'Render', logo: 'simple-icons:render' },
+  ],
+  'DevOps': [
+    { text: 'AWS', logo: 'mdi:aws' },
+    { text: 'Docker', logo: 'mdi:docker' },
+    { text: 'Kubernetes', logo: 'mdi:kubernetes' },
   ],
   'Development Tools': [
-    { text: 'Visual Studio Code', logo: 'mdi:visual-studio-code' },
-    { text: 'Git', logo: 'mdi:git' },
-  ],
-  'Hosting and Cloud Services': [
-    { text: 'DigitalOcean', logo: 'mdi:digital-ocean' },
-    { text: 'Cloudflare', logo: 'cib:cloudflare' },
-    { text: 'Netlify', logo: 'cib:netlify' },
+    { text: 'Git', logo: 'mdi:git'},
+    { text: 'GitHub', logo: 'mdi:github'},
+    { text: 'Ghostty Terminal', logo: 'simple-icons:ghostery'},
+    { text: 'Bash Terminal', logo: 'simple-icons:gnubash'},
+    { text: 'Postman', logo: 'simple-icons:postman'},
+    { text: 'Visual Studio Code', logo: 'mdi:visual-studio' },
   ],
   'Operating Systems': [
     { text: 'Windows', logo: 'mdi:windows' },
-    { text: 'Ubuntu', logo: 'mdi:ubuntu' },
+    { text: 'MacOS', logo: 'mdi:apple' },
   ],
   'Other Programming Languages and Technologies': [
-    { text: 'Lua', logo: 'mdi:language-lua' },
+    { text: 'C++', logo: 'mdi:language-cpp' },
+    { text: 'Python', logo: 'mdi:language-python' },
     { text: 'Golang', logo: 'mdi:language-go' },
-    { text: 'Node.js', logo: 'mdi:nodejs' },
-  ],
-  'Web Servers': [
-    { text: 'Apache', logo: 'cib:apache' },
-    { text: 'Nginx', logo: 'cib:nginx' },
-  ],
-  Databases: [
-    { text: 'MySQL', logo: 'cib:mysql' },
-    { text: 'MongoDB', logo: 'cib:mongodb' },
   ],
   'Other Software': [
     { text: 'Discord', logo: 'mdi:discord' },
-    { text: 'Spotify', logo: 'mdi:spotify' },
-    { text: 'Visual Studio', logo: 'mdi:visual-studio' },
     { text: 'Brave', logo: 'cib:brave' },
+    { text: 'Chrome', logo: 'mdi:google-chrome' },
   ],
 }

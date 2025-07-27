@@ -22,12 +22,14 @@ export interface Category {
 }
 
 export type Technologies = {
-  'Web Development': Category[]
-  'Development Tools': Category[]
-  'Hosting and Cloud Services': Category[]
+  'Frontend': Category[]
+  'Backend': Category[]
+  Databases: Category[]
+  'Package Managers': Category[],
+  'Deployment': Category[],
+  'DevOps': Category[],
+  'Development Tools': Category[],
   'Operating Systems': Category[]
   'Other Programming Languages and Technologies': Category[]
-  'Web Servers': Category[]
-  Databases: Category[]
   'Other Software': Category[]
 }
