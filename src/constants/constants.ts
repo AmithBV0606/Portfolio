@@ -1,4 +1,4 @@
-import type { IconMap, SocialLink, Site } from '@/types/index';
+import type { IconMap, SocialLink, Site, Technologies } from '@/types/index';
 
 export const SITE: Site = {
   title: 'Amith B V',
@@ -55,22 +55,6 @@ export const ICON_MAP: IconMap = {
   Phone: 'lucide:phone',
   Email: 'lucide:mail',
   RSS: 'lucide:rss',
-}
-
-export interface Category {
-  text: string
-  logo: string
-}
-
-export type Technologies = {
-  'Web Development': Category[]
-  'Development Tools': Category[]
-  'Hosting and Cloud Services': Category[]
-  'Operating Systems': Category[]
-  'Other Programming Languages and Technologies': Category[]
-  'Web Servers': Category[]
-  Databases: Category[]
-  'Other Software': Category[]
 }
 
 export const technologies: Technologies = {
