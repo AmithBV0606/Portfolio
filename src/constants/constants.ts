@@ -3,11 +3,11 @@ import type { IconMap, SocialLink, Site } from '@/types/index';
 export const SITE: Site = {
   title: 'Amith B V',
   description:
-    "I'm a Junior Full Stack Developer with a passion for creating web applications. I have experience in both front-end and back-end development, and I'm always eager to learn new technologies and improve my skills. I enjoy collaborating with teams and contributing to projects that make a difference.",
+    "I'm a Full Stack Developer with a passion for creating web applications. I have experience in both front-end and back-end development, and I'm always eager to learn new technologies and improve my skills. I enjoy collaborating with teams and contributing to projects that make a difference.",
   href: 'https://cojocarudavid.me',
-  author: 'Cojocaru David',
+  author: 'Amith B V',
   locale: 'en-US',
-  location: 'Romania',
+  location: 'India',
 }
 
 export const NAV_LINKS: SocialLink[] = [
