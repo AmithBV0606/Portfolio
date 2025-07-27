@@ -1,6 +1,5 @@
 import React from "react";
 import { SITE } from "@/constants/constants";
-import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 
 const HeroSection = () => {
