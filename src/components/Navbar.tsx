@@ -122,7 +122,7 @@ const Navbar = () => {
           "fixed left-1/2 z-30 -translate-x-1/2 transform backdrop-blur-lg",
           "bg-background/80 border-0",
           "rounded-none shadow-none transition-all duration-300 ease-in-out",
-          "border border-transparent w-full",
+          "border border-transparent w-full mt-4",
           isScrolled && !isMobile && "rounded-full",
           isScrolled && !isMobile && "backdrop-blur-md",
           isScrolled && !isMobile && "border-foreground/10",
