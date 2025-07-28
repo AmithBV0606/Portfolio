@@ -7,7 +7,7 @@ import { Separator } from "./ui/separator";
 
 export default function FooterSection() {
   return (
-    <div className="relative top-24 md:top-44 container mx-auto w-full max-w-5xl border-t border-gray-800">
+    <div className="relative top-24 md:top-96 container mx-auto w-full max-w-5xl border-t border-gray-800">
       <div className="flex items-center justify-between py-6">
         <div>
           <ul className="flex flex-wrap gap-2 justify-around w-full mb-4 md:justify-center md:mb-0 md:w-auto">
