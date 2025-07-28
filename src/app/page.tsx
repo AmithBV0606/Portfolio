@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import TechStackSection from "@/components/TechStackSection";
+import { TimeLineSection } from "@/components/TimeLineSection";
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
 
       <TechStackSection />
 
-      <DummyContent />
+      <TimeLineSection />
+
+      {/* <DummyContent /> */}
     </div>
   );
 }
