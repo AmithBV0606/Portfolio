@@ -1,3 +1,6 @@
+import { LucideIcon } from "lucide-react";
+import * as LucideIcons from "lucide-react";
+
 export type Site = {
 title: string
 description: string
@@ -7,9 +10,14 @@ locale: string
 location: string
 }
 
-export type SocialLink = {
+export type NavLink = {
   href: string
   label: string
+}
+
+export type SocialLink = {
+  href: string
+  label: LucideIcon
 }
 
 export type IconMap = {

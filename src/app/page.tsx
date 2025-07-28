@@ -1,3 +1,4 @@
+import FooterSection from "@/components/FooterSection";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import TechStackSection from "@/components/TechStackSection";
@@ -13,6 +14,8 @@ export default function Home() {
       <TechStackSection />
 
       <TimeLineSection />
+
+      <FooterSection />
 
       {/* <DummyContent /> */}
     </div>

@@ -28,4 +28,4 @@ const LinkComponent: React.FC<Props> = ({ href, external, className, underline, 
   );
 };
 
-export default Link;
+export default LinkComponent;

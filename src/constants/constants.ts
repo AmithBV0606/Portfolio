@@ -1,4 +1,5 @@
-import type { IconMap, SocialLink, Site, Technologies } from '@/types/index';
+import type { IconMap, SocialLink, Site, Technologies, NavLink } from '@/types/index';
+import { Github, Mail, PhoneCall, Instagram, Rss, LinkedinIcon } from "lucide-react";
 
 export const SITE: Site = {
   title: 'Amith B V',
@@ -10,7 +11,7 @@ export const SITE: Site = {
   location: 'India',
 }
 
-export const NAV_LINKS: SocialLink[] = [
+export const NAV_LINKS: NavLink[] = [
   {
     href: '/',
     label: 'home',
@@ -27,24 +28,24 @@ export const NAV_LINKS: SocialLink[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: 'https://github.com/cojocaru-david?ref=personal-website',
-    label: 'GitHub',
+    href: 'https://github.com/AmithBV0606',
+    label: Github,
   },
   {
-    href: 'mailto:contact@cojocarudavid.me',
-    label: 'Email',
+    href: 'mailto:amithrao0606@gmail.com',
+    label: Mail,
   },
   {
-    href: '+40 764 132 266',
-    label: 'Phone',
+    href: 'https://www.instagram.com/amith_rao_01/',
+    label: Instagram,
   },
   {
-    href: 'https://www.instagram.com/david._.cojo?ref=personal-website',
-    label: 'Instagram',
+    href: "https://www.linkedin.com/in/amith-b-v-151a281b4/",
+    label: LinkedinIcon,
   },
   {
     href: '/rss.xml',
-    label: 'RSS',
+    label: Rss,
   },
 ]
 
