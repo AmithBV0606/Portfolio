@@ -140,10 +140,11 @@ const Navbar = () => {
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 p-4">
           <LinkComponent
             href="/"
-            className="font-custom flex shrink-0 items-center gap-2 text-xl font-bold"
+            className="font-custom flex shrink-0 items-center gap-2 text-3xl md:text-4xl font-extrabold"
             aria-label="Home"
             title="Home"
-            // navigation="true"
+            navigation="true"
+            onClick={() => setActivePath("/")}
           >
             <Logo className="h-8 w-8" />
 
@@ -163,7 +164,8 @@ const Navbar = () => {
               role="navigation"
             >
               {NAV_LINKS.map((item) => {
-                const isActive =
+                const isActive = activePath === "/" ? 
+                  activePath.startsWith(item.href) :
                   activePath.startsWith(item.href) && item.href !== "/";
                 return (
                   <motion.div
