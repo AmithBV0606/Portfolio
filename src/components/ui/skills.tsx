@@ -45,8 +45,7 @@ import {
   SiDiscord,
   SiBrave,
 } from 'react-icons/si'
-import { LucideAppWindow} from 'lucide-react'
-import { FaAws } from "react-icons/fa";
+import { FaAws, FaChrome, FaWindows } from "react-icons/fa";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { TbBrandCpp } from "react-icons/tb";
 
@@ -85,13 +84,14 @@ const iconMap: { [key: string]: IconType } = {
   'simple-icons:gnubash': SiGnubash,
   'simple-icons:postman': SiPostman,
   'mdi:visual-studio': BiLogoVisualStudio,
-  'mdi:windows': LucideAppWindow,
+  'mdi:windows': FaWindows,
   'mdi:apple': SiMacos,
   'mdi:language-cpp': TbBrandCpp,
   'mdi:language-python': SiPython,
   'mdi:language-go': SiGo,
   'mdi:discord': SiDiscord,
   'cib:brave': SiBrave,
+  'mdi:google-chrome': FaChrome
 }
 
 const categories = Object.keys(technologies)
@@ -138,7 +138,7 @@ const Skills: React.FC = () => {
                       <span className="bg-muted flex h-10 w-10 items-center justify-center rounded-full p-2 text-lg shadow-inner">
                         <IconComponent className="tech-icon text-primary dark:text-[#fcdfc1] text-2xl" />
                       </span>
-                      <span className="text-foreground font-medium">
+                      <span className="text-foreground font-custom">
                         {tech.text}
                       </span>
                     </div>

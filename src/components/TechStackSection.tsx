@@ -15,7 +15,10 @@ export default function TechStackSection() {
           Skills & Technologies
         </h2>
 
-        <p className="text-gray-400 text-sm mt-2">
+        <p 
+          // className="text-gray-400 text-sm mt-2"
+          className="text-md text-gray-400 font-[200] text-justify"
+        >
           Here are some of the technologies I've been working with:
         </p>
       </div>
