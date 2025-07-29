@@ -8,6 +8,16 @@ import FooterSection from "@/components/FooterSection";
 const clashDisplay = localFont({
   src: [
     {
+      path: "./fonts/_montserrat_bold.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/_montserrat_regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
       path: "./fonts/ClashDisplay-Semibold.eot",
       weight: "400",
       style: "normal",
@@ -24,6 +34,16 @@ const clashDisplay = localFont({
     },
     {
       path: "./fonts/ClashDisplay-Semibold.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/GeistMonoVF.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/GeistVF.woff2",
       weight: "400",
       style: "normal",
     },
