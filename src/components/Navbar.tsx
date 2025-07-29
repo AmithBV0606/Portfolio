@@ -140,7 +140,7 @@ const Navbar = () => {
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 p-4">
           <LinkComponent
             href="/"
-            className="font-custom flex shrink-0 items-center gap-2 text-3xl md:text-4xl font-extrabold"
+            className="font-custom flex shrink-0 items-center gap-2 text-2xl font-extrabold"
             aria-label="Home"
             title="Home"
             navigation="true"
