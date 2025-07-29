@@ -4,7 +4,6 @@ import "./globals.css";
 // import "./typography.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/Navbar";
-import FooterSection from "@/components/FooterSection";
 
 const clashDisplay = localFont({
   src: [
@@ -73,8 +72,6 @@ export default function RootLayout({
           <Navbar />
 
           {children}
-
-          <FooterSection />
         </ThemeProvider>
       </body>
     </html>

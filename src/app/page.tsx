@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import TechStackSection from "@/components/TechStackSection";
 import { TimeLineSection } from "@/components/TimeLineSection";
+import FooterSection from "@/components/FooterSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <TechStackSection />
 
       <TimeLineSection />
+
+      <FooterSection />
     </div>
   );
 }
