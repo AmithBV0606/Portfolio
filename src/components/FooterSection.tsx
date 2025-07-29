@@ -7,8 +7,9 @@ import { Separator } from "./ui/separator";
 
 export default function FooterSection() {
   return (
-    <div className="relative top-24 md:top-96 container mx-auto w-full max-w-5xl border-t border-gray-800">
-      <div className="flex items-center justify-between py-6">
+    // Adjust the top position accordingly in the future :
+    <div className="relative top-48 md:top-96 container mx-auto w-full max-w-5xl border-t border-gray-800">
+      <div className="flex flex-col md:flex-row items-center justify-between py-1 md:py-6">
         <div>
           <ul className="flex flex-wrap gap-2 justify-around w-full mb-4 md:justify-center md:mb-0 md:w-auto">
             {SOCIAL_LINKS.map((link, index) => {
@@ -30,7 +31,7 @@ export default function FooterSection() {
           </ul>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-x-2 text-center">
+        <div className="flex flex-wrap items-center justify-center gap-x-2 text-center mb-2 md:mb-0">
           <span
             className="text-muted-foreground text-sm"
             aria-label="copyright"
