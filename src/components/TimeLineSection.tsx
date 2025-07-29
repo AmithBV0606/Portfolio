@@ -14,7 +14,7 @@ export function TimeLineSection() {
             College on September 17th.
           </p>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-4">
             <Image
               src="/leetcode/leetcode-1.png"
               alt="startup template"
@@ -50,20 +50,12 @@ export function TimeLineSection() {
             had recently landed a remote role at Backpack with a $500K offer. I
             was Intrigued and started learning more about him. At the time, he
             was running Full-Stack Developer cohorts, and the first batch had
-            just concluded in October. With Cohort 2 set to begin on December
+            just concluded in October. With Cohort - 2 set to begin on December
             17th, I didn&apos;t overthink it — I signed up without hesitation
             and became a part of "100xdevs" community.
           </p>
 
-          <div className="grid grid-cols-2 gap-4">
-            <img
-              src="/cohort/HKS-1.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60 dark:border dark:border-gray-600"
-            />
-
+          <div className="grid grid-cols-1">
             <img
               src="/cohort/HKS-2.png"
               alt="feature template"
@@ -156,13 +148,13 @@ export function TimeLineSection() {
             website — to put my React skills to the test.
           </p>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-4">
             <img
               src="/projects/React-1.png"
               alt="hero template"
               width={500}
               height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60 dark:border dark:border-gray-600"
+              className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60 dark:border dark:border-gray-600"
             />
 
             <img
@@ -170,7 +162,7 @@ export function TimeLineSection() {
               alt="feature template"
               width={500}
               height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60 dark:border dark:border-gray-600"
+              className="h-20 w-full rounded-lg object-contain shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60 dark:border dark:border-gray-600"
             />
           </div>
         </div>
