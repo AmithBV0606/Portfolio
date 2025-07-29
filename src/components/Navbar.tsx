@@ -35,7 +35,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleResize = debounce(() => {
-      const isMobileView = window.matchMedia("(max-width: 768px)").matches;
+      const isMobileView = window.matchMedia("(max-width: 760px)").matches;
       setIsMobile(isMobileView);
       if (!isMobileView && mobileMenuOpen) {
         setMobileMenuOpen(false);
