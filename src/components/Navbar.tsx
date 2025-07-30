@@ -119,7 +119,7 @@ const Navbar = () => {
         initial={sizeVariants[0]}
         animate={isMobile ? sizeVariants[0] : sizeVariants[scrollLevel]}
         className={cn(
-          "fixed left-1/2 z-30 -translate-x-1/2 transform backdrop-blur-lg",
+          "fixed left-1/2 z-50 -translate-x-1/2 transform backdrop-blur-lg",
           "bg-background/80 border-0",
           "rounded-none shadow-none transition-all duration-300 ease-in-out",
           "border border-transparent w-full mt-3 md:mt-1",
@@ -228,7 +228,7 @@ const Navbar = () => {
             animate="open"
             exit="closed"
             variants={{ menuVariants }}
-            className="fixed inset-0 z-20 flex flex-col items-center justify-start bg-background border-0 shadow-none"
+            className="fixed inset-0 z-40 flex flex-col items-center justify-start bg-background border-0 shadow-none"
           >
             <div className="flex flex-col items-center justify-start h-full pt-24 w-full p-6">
               <nav className="flex flex-col items-center justify-start gap-1 w-full">
