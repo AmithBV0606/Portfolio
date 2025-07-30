@@ -12,7 +12,7 @@ export default function Home() {
 
       <TimeLineSection />
 
-      <FooterSection />
+      <FooterSection top={96}/>
     </div>
   );
 }
