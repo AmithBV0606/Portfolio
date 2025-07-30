@@ -144,7 +144,10 @@ const Navbar = () => {
             aria-label="Home"
             title="Home"
             navigation="true"
-            onClick={() => setActivePath("/")}
+            onClick={() => {
+              setActivePath("/");
+              setMobileMenuOpen(false);
+            }}
           >
             <Logo className="h-8 w-8" />
 
@@ -164,9 +167,10 @@ const Navbar = () => {
               role="navigation"
             >
               {NAV_LINKS.map((item) => {
-                const isActive = activePath === "/" ? 
-                  activePath.startsWith(item.href) :
-                  activePath.startsWith(item.href) && item.href !== "/";
+                const isActive =
+                  activePath === "/"
+                    ? activePath.startsWith(item.href)
+                    : activePath.startsWith(item.href) && item.href !== "/";
                 return (
                   <motion.div
                     key={item.href}
