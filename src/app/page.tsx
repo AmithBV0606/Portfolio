@@ -12,7 +12,9 @@ export default function Home() {
 
       <TimeLineSection />
 
-      <FooterSection top={96}/>
+      <div className="relative top-48 md:top-96 container mx-auto w-full max-w-5xl border-t border-gray-800">
+        <FooterSection />
+      </div>
     </div>
   );
 }
