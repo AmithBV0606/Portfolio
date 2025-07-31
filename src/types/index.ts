@@ -41,3 +41,19 @@ export type Technologies = {
   'Other Programming Languages and Technologies': Category[]
   'Other Software': Category[]
 }
+
+export type BreadCrumbsProps = {
+  label: string, 
+  href: string, 
+  icon: LucideIcon
+}
+
+export type ProjectDataType = {
+  name: string;
+  description: string;
+  tags: string[];
+  image: string;
+  link: string;
+  startDate: string;
+  endDate: string;
+};
