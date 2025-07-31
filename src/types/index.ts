@@ -44,8 +44,8 @@ export type Technologies = {
 
 export type BreadCrumbsProps = {
   label: string, 
-  href: string, 
-  icon: LucideIcon
+  href?: string, 
+  icon?: LucideIcon
 }
 
 export type ProjectDataType = {

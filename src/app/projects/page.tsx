@@ -19,7 +19,7 @@ export default function ProjectsPage() {
   const [activePath, setActivePath] = useState("Web Apps");
 
   return (
-    <div className="relative container top-28 md:top-36 w-full mx-auto text-center max-w-4xl">
+    <div className="relative container top-28 md:top-40 w-full mx-auto text-center max-w-4xl">
       <div className="w-full">
         {/* Breadcrumbs */}
         <div className="mx-5 md:mx-0">
