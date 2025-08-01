@@ -19,17 +19,17 @@ export default function ProjectsPage() {
   const [activePath, setActivePath] = useState("Web Apps");
 
   return (
-    <div className="relative container top-28 md:top-40 w-full mx-auto text-center max-w-4xl">
+    <div className="relative container top-28 md:top-32 w-full mx-auto text-center max-w-5xl xl:max-w-4xl">
       <div className="w-full">
         {/* Breadcrumbs */}
-        <div className="mx-5 md:mx-0">
+        <div className="mx-4 xl:mx-0">
           <GenericBreadCrumbs
             items={[{ label: "Projects", href: "/projects", icon: Folder }]}
           />
         </div>
 
         {/* Intro about the projects I've worked on :  */}
-        <div className="flex flex-row items-center justify-between mb-8 relative top-12 mx-5 md:mx-0">
+        <div className="flex flex-row items-center justify-between mb-8 relative top-12 mx-4 xl:mx-0">
           <div>
             <div className="flex w-fit items-center gap-2 text-primary">
               <DynamicIcon
@@ -56,7 +56,7 @@ export default function ProjectsPage() {
         </div>
 
         {/* Project Type Menu : */}
-        <div className="flex items-center gap-2 md:gap-4 top-10 mx-5 md:mx-0 mt-16">
+        <div className="flex items-center gap-2 md:gap-4 top-10 mx-4 xl:mx-0 mt-16">
           <nav
             className="flex items-center gap-6 md:flex"
             aria-label="Main navigation"
@@ -94,7 +94,7 @@ export default function ProjectsPage() {
         </div>
 
         {/* Project Cards : */}
-        <div className="mt-9 grid grid-cols-1 py-sm sm:grid-cols-2 gap-x-8 mb-16 gap-y-8 px-5 md:px-0">
+        <div className="mt-9 grid grid-cols-1 py-sm sm:grid-cols-2 gap-x-8 mb-16 gap-y-8 px-4 xl:px-0">
           {projectType === "Web Apps" ? (
             <>
               {webApplicationProjects.map((project, index) => (
