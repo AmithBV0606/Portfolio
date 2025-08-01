@@ -9,7 +9,7 @@ export default function FooterSection() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between py-1 md:py-6">
       <div>
-        <ul className="flex flex-wrap gap-2 justify-around w-full mb-4 md:justify-center md:mb-0 md:w-auto">
+        <ul className="flex flex-wrap gap-1 xl:gap-2 justify-around w-full mb-4 md:justify-center md:mb-0 md:w-auto">
           {SOCIAL_LINKS.map((link, index) => {
             return (
               <li key={index}>
@@ -29,7 +29,7 @@ export default function FooterSection() {
         </ul>
       </div>
 
-      <div className="flex flex-wrap items-center justify-center gap-x-2 text-center mb-2 md:mb-0">
+      <div className="flex flex-wrap items-center justify-center gap-x-2 text-center mb-2 mr-2">
         <span className="text-muted-foreground text-sm" aria-label="copyright">
           2025 - {new Date().getFullYear()} &copy; All rights reserved.
         </span>
