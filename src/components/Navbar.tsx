@@ -168,9 +168,8 @@ const Navbar = () => {
             >
               {NAV_LINKS.map((item) => {
                 const isActive =
-                  activePath === "/"
-                    ? activePath.startsWith(item.href)
-                    : activePath.startsWith(item.href) && item.href !== "/";
+                  activePath.startsWith(item.href) && item.href !== "/";
+
                 return (
                   <motion.div
                     key={item.href}
