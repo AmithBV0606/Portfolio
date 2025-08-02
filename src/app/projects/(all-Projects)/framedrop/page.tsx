@@ -131,7 +131,7 @@ export default function FrmaeDropPage() {
                   <strong className="font-extrabold dark:text-white text-black underline">
                     Database
                   </strong>{" "}
-                  : Prisma
+                  : NeonDB(Postgres) and Prisma ORM
                 </li>
                 <li className="pl-4">
                   <strong className="font-extrabold dark:text-white text-black underline">
