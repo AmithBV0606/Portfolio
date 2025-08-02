@@ -51,6 +51,7 @@ export type BreadCrumbsProps = {
 export type ProjectDataType = {
   name: string;
   description: string;
+  miniDescription: string;
   tags: string[];
   image: string;
   link: string;
