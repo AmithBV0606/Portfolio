@@ -35,16 +35,6 @@ export const webApplicationProjects: Array<ProjectDataType> = [
 
 export const mobileApplicationProjects: Array<ProjectDataType> =[
     {
-        name: "Pill-Buddy",
-        description: "Pill-Buddy is a React Native mobile application designed to help users manage their medication schedules with ease. It allows users to add medicine names and set personalized reminders for intake times. The app focuses on simplicity and reliability, making it ideal for daily health tracking.",
-        miniDescription: "Pill-Buddy is a React Native app that helps users manage their medication schedule by allowing them to add medicines, set reminders, and track daily intake easily.",
-        tags: ["React-Native", "JavaScript", "Expo", "Expo-router", "Firebase", "Firebase-Auth", "Firebase/Firestore", "react-native-async-storage"],
-        image: "/projects/RN-1.png",
-        link: "https://pill-buddy.amithbv.com/",
-        startDate: "2025-01-27T00:00:00.000Z",
-        endDate: "2025-02-02T00:00:00.000Z"
-    },
-    {
         name: "TrackMate",
         description: "TrackMate is a React Native habit tracker application that enables users to build and maintain healthy routines. Users can create custom habits, mark daily progress, and visualize their consistency through intuitive UI components. The app is designed for simplicity and long-term habit reinforcement.",
         miniDescription: "TrackMate is a habit tracker app built with React Native that helps users build consistency by allowing them to create, manage, and monitor daily habits with a simple interface.",
