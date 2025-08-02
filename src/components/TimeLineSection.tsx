@@ -393,7 +393,7 @@ export function TimeLineSection() {
     },
   ];
   return (
-    <div className="relative w-full overflow-clip top-14 md:top-40 mx-auto">
+    <div className="relative w-auto overflow-clip top-14 md:top-40 mx-auto">
       <Timeline data={data} />
     </div>
   );

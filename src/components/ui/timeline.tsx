@@ -36,16 +36,19 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   return (
     <div
       // className="bg-white dark:bg-[#121212] font-sans md:px-10 w-full"
-      className="bg-white dark:bg-neutral-950 font-sans md:px-10 w-full"
+      className="bg-white dark:bg-neutral-950 font-sans xl:px-10 w-full"
       ref={containerRef}
     >
-      <div className="max-w-5xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-3 text-black dark:text-white max-w-5xl font-custom">
+      <div className="max-w-5xl mx-auto py-20 px-4 lg:px-8 xl:px-10">
+        <h2 className="text-2xl md:text-3xl xl:text-4xl mb-3 text-black dark:text-white max-w-5xl font-custom">
           Changelog from my journey
         </h2>
 
         <p className="text-neutral-700 dark:text-gray-400 text-sm md:text-base max-w-5xl">
-        From knowing nothing to becoming a Full-Stack Engineer specialized in the advanced MERN stack — it&apos;s been a transformative journey. Over the past 2 years, I&apos;ve worked on multiple real-world projects, and here's a timeline that captures that growth.
+          From knowing nothing to becoming a Full-Stack Engineer specialized in
+          the advanced MERN stack — it&apos;s been a transformative journey.
+          Over the past 2 years, I&apos;ve worked on multiple real-world
+          projects, and here's a timeline that captures that growth.
         </p>
       </div>
 
@@ -53,28 +56,29 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start pt-10 md:pt-40 md:gap-10"
+            className="flex justify-start pt-10 md:pt-40 xl:gap-10"
           >
-            <div className="sticky flex flex-col md:flex-row z-20 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
-              <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
+            <div className="sticky flex flex-col md:flex-row z-20 items-center top-40 self-start max-w-xs lg:max-w-sm xl:w-full">
+              {/* Pointer Ball : */}
+              <div className="h-10 w-10 absolute left-3 md:left-3 rounded-full bg-white dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
 
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 font-custom">
+              <h3 className="hidden xl:block text-2xl md:pl-15 xl:pl-20 xl:text-5xl font-bold text-neutral-500 dark:text-neutral-500 font-custom">
                 {item.title}
               </h3>
             </div>
 
-            <div className="relative pl-20 pr-4 md:pl-4 w-full">
-              <h3 className="md:hidden block text-3xl mb-4 text-left font-custom text-neutral-500 dark:text-neutral-500">
+            <div className="relative pl-20 pr-4 xl:pl-4 w-full md:-top-5 xl:top-0">
+              <h3 className="xl:hidden block text-4xl mb-4 text-left font-custom text-neutral-500 dark:text-neutral-500">
                 {item.title}
               </h3>
-
               {item.content}{" "}
             </div>
           </div>
         ))}
 
+        {/* This is the line which moves as we scroll down : */}
         <div
           style={{
             height: height + "px",

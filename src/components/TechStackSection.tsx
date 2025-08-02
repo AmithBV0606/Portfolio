@@ -4,10 +4,10 @@ import Skills from "@/components/ui/skills";
 export default function TechStackSection() {
   return (
     <section className="relative top-24 md:top-44 container mx-auto w-auto">
-      <div className="md:-ml-5">
+      <div className="xl:-ml-5">
         <h2
           id="skills-title"
-          className="font-custom text-foreground text-4xl font-bold"
+          className="font-custom text-foreground text-2xl md:text-3xl xl:text-4xl font-bold"
           title="skills"
           aria-label="skills"
           role="heading"
