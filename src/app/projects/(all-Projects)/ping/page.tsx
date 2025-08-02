@@ -92,37 +92,37 @@ export default async function PingPage() {
 
               <ul className="mb-4 list-disc max-sm:text-sm text-neutral-500 dark:text-neutral-400 pl-10 space-y-4">
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Framework
                   </strong>{" "}
                   : Next.js + TypeScript
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Authentication
                   </strong>{" "}
                   : Next-Auth
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Forms & Validation
                   </strong>{" "}
                   : React Hook Form + Zod
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Styling
                   </strong>{" "}
                   : Tailwind CSS, Shadcn UI, Aceternity UI, Magic UI
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Animation
                   </strong>{" "}
                   : Framer Motion
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Realtime Client
                   </strong>{" "}
                   : Socket.io-client
@@ -138,37 +138,37 @@ export default async function PingPage() {
 
               <ul className="mb-4 list-disc max-sm:text-sm text-neutral-500 dark:text-neutral-400 pl-10 space-y-4">
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Server
                   </strong>{" "}
                   : Node.js + Express + TypeScript
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     ORM
                   </strong>{" "}
                   : Prisma
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Databse
                   </strong>{" "}
                   : PostgreSQL (hosted on Supabase)
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     WebSocket Server
                   </strong>{" "}
                   : Socket.io
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Messaging Queue
                   </strong>{" "}
                   : QStash from Upstash
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Redis
                   </strong>{" "}
                   : ioredis + Upstash Redis with
@@ -177,7 +177,7 @@ export default async function PingPage() {
                   </Badge>
                 </li>
                 <li className="pl-4">
-                  <strong className="font-bold text-white underline">
+                  <strong className="font-extrabold dark:text-white text-black underline">
                     Auth
                   </strong>{" "}
                   : JSON Web Tokens (JWT)
@@ -222,7 +222,7 @@ export default async function PingPage() {
               <Link
                 href="https://github.com/AmithBV0606/Ping"
                 target="_blank"
-                className="text-[#fcdfc1] underline"
+                className="text-[#ffdfb0] dark:text-[#fcdfc1] underline"
               >
                 GitHub repository
               </Link>
@@ -258,7 +258,7 @@ export default async function PingPage() {
                 <Link
                   href={"https://github.com/AmithBV0606"}
                   target="_blank"
-                  className="text-[#fcdfc1] underline"
+                  className="text-[#ffdfb0] dark:text-[#fcdfc1] underline"
                 >
                   Amith B V
                 </Link>
