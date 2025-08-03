@@ -164,3 +164,15 @@
   font-weight: 400;
   font-style: normal;
 }
+
+::selection {
+  background-color: #4a322a; /* fallback */
+  color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    background-color: #fbd8b4;
+    color: #0f0f0f;
+  }
+}
