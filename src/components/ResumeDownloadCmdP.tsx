@@ -37,7 +37,7 @@ const ResumeDownloadCmdP = ({
   return (
     <CommandMenu open={open} onOpenChange={setOpen}>
       <CommandMenuTrigger asChild>
-        <Button variant="outline" className="gap-2 cursor-pointer bg-red-500">
+        <Button variant="outline" className="gap-2 cursor-pointer bg-[#E8EBED]">
           {/* <Command size={16} /> */}
           Download Resume
           <div className="ml-auto flex items-center gap-1">

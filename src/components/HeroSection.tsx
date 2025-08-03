@@ -87,6 +87,7 @@ const HeroSection = () => {
               <div className="flex justify-center md:justify-start">
                 <WrapButton
                   href="public/Amith-Resume.pdf"
+                  className="bg-[#ffdfb0] dark:bg-[#151515]"
                 >
                   <Globe className="animate-spin " />
                   Download Resume
