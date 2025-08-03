@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  useMotionValueEvent,
   useScroll,
   useTransform,
   motion,
@@ -48,7 +47,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           From knowing nothing to becoming a Full-Stack Engineer specialized in
           the advanced MERN stack — it&apos;s been a transformative journey.
           Over the past 2 years, I&apos;ve worked on multiple real-world
-          projects, and here's a timeline that captures that growth.
+          projects, and here&apos;s a timeline that captures that growth.
         </p>
       </div>
 

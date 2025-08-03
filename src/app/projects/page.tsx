@@ -11,7 +11,6 @@ import {
 import ProjectCard from "@/components/ProjectCard";
 import FooterSection from "@/components/FooterSection";
 import { motion } from "framer-motion";
-import LinkComponent from "@/components/ui/link";
 import { cn } from "@/lib/utils";
 
 export default function ProjectsPage() {

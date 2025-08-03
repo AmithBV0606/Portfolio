@@ -147,7 +147,7 @@ export default function TrackMatePage() {
 
             <p className="mb-4 max-sm:text-sm text-neutral-500 dark:text-neutral-400">
               For detailed installation and configuration steps, please visit
-              the TrackMate's{" "}
+              the TrackMate&apos;s{" "}
               <Link
                 href="https://github.com/AmithBV0606/TrackMate"
                 target="_blank"

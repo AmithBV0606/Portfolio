@@ -10,8 +10,8 @@ export function TimeLineSection() {
         <div>
           <p className="mb-8 font-normal text-neutral-800 text-sm md:text-base dark:text-gray-400">
             This was the month I took my first step toward becoming a Software
-            Engineer by enrolling in the "DSA with Java" course from Apna
-            College on September 17th.
+            Engineer by enrolling in the &quot;DSA with Java&quot; course from
+            Apna College on September 17th.
           </p>
 
           <div className="grid grid-cols-1 gap-4">
@@ -44,11 +44,11 @@ export function TimeLineSection() {
             was running Full-Stack Developer cohorts, and the first batch had
             just concluded in October. With Cohort - 2 set to begin on December
             17th, I didn&apos;t overthink it — I signed up without hesitation
-            and became a part of "100xdevs" community.
+            and became a part of &quot;100xdevs&quot; community.
           </p>
 
           <div className="grid grid-cols-1">
-            <img
+            <Image
               src="/cohort/HKS-2.png"
               alt="feature template"
               width={500}
@@ -62,12 +62,12 @@ export function TimeLineSection() {
             thought it would be a good idea to build some foundational knowledge
             beforehand. So, on December 17th itself, I created my GitHub account
             and began learning HTML and CSS. I even built my very first project
-            using just HTML i.e "Event-Management-Page". Then I went on to build
-            "Amazon" UI clone.
+            using just HTML i.e &quot;Event-Management-Page&quot;. Then I went
+            on to build &quot;Amazon&quot; UI clone.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
-            <img
+            <Image
               src="/projects/HTML-1.png"
               alt="hero template"
               width={500}
@@ -75,7 +75,7 @@ export function TimeLineSection() {
               className="h-28 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60 dark:border dark:border-gray-600"
             />
 
-            <img
+            <Image
               src="/projects/HTML-CSS-1.png"
               alt="feature template"
               width={500}
@@ -90,7 +90,7 @@ export function TimeLineSection() {
       title: "Early 2024",
       content: (
         <div>
-           <p className="mb-8 font-normal text-neutral-800 text-sm md:text-base dark:text-gray-400">
+          <p className="mb-8 font-normal text-neutral-800 text-sm md:text-base dark:text-gray-400">
             Initially, I struggled to keep up with the pace of the cohort. To
             strengthen my fundamentals, I started building more HTML and CSS
             projects by following YouTube tutorials, which helped me get
@@ -98,7 +98,7 @@ export function TimeLineSection() {
           </p>
 
           <div className="grid grid-cols-2 gap-4">
-            <img
+            <Image
               src="/projects/HTML-CSS-2.png"
               alt="hero template"
               width={500}
@@ -106,7 +106,7 @@ export function TimeLineSection() {
               className="h-28 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60 dark:border dark:border-gray-600"
             />
 
-            <img
+            <Image
               src="/projects/HTML-2.png"
               alt="feature template"
               width={500}
@@ -123,7 +123,7 @@ export function TimeLineSection() {
           </p>
 
           <div className="grid grid-cols-1">
-            <img
+            <Image
               src="/projects/JS-2.png"
               alt="feature template"
               width={500}
@@ -136,12 +136,12 @@ export function TimeLineSection() {
             Once I became comfortable with HTML, CSS, Tailwind CSS, and
             JavaScript, I dove into learning React.js by building several small
             projects (as shown in the first image). Eventually, I took on a
-            mid-tier, frontend-heavy project — a clone of the original "GIPHY"
-            website — to put my React skills to the test.
+            mid-tier, frontend-heavy project — a clone of the original
+            &quot;GIPHY&quot; website — to put my React skills to the test.
           </p>
 
           <div className="grid grid-cols-1 gap-4">
-            <img
+            <Image
               src="/projects/React-1.png"
               alt="hero template"
               width={500}
@@ -149,7 +149,7 @@ export function TimeLineSection() {
               className="h-40 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60 dark:border dark:border-gray-600"
             />
 
-            <img
+            <Image
               src="/projects/React-2.png"
               alt="feature template"
               width={500}
@@ -164,16 +164,16 @@ export function TimeLineSection() {
       title: "Late 2024",
       content: (
         <div>
-           <p className="mb-8 font-normal text-neutral-800 text-sm md:text-base dark:text-gray-400">
+          <p className="mb-8 font-normal text-neutral-800 text-sm md:text-base dark:text-gray-400">
             Even after building several small to mid-tier React.js projects, I
-            felt something was missing. I wanted to dive deeper into React's
-            core fundamentals, so I began following a tutorial playlist by
-            WebDevSimplified on YouTube and practiced Frontend machine coding
-            tasks.
+            felt something was missing. I wanted to dive deeper into
+            React&apos;s core fundamentals, so I began following a tutorial
+            playlist by WebDevSimplified on YouTube and practiced Frontend
+            machine coding tasks.
           </p>
 
           <div className="grid grid-cols-1">
-            <img
+            <Image
               src="/projects/React-3.png"
               alt="hero template"
               width={500}
@@ -190,7 +190,7 @@ export function TimeLineSection() {
           </p>
 
           <div className="grid grid-cols-1">
-            <img
+            <Image
               src="/projects/JS-4.png"
               alt="hero template"
               width={500}
@@ -217,7 +217,7 @@ export function TimeLineSection() {
           </p>
 
           <div className="grid grid-cols-1">
-            <img
+            <Image
               src="/meet-ups/MeetUp-1.jpeg"
               alt="hero template"
               width={500}
@@ -239,16 +239,16 @@ export function TimeLineSection() {
       title: "Early 2025",
       content: (
         <div>
-           <p className="mb-8 font-normal text-neutral-800 text-sm md:text-base dark:text-gray-400">
+          <p className="mb-8 font-normal text-neutral-800 text-sm md:text-base dark:text-gray-400">
             After completing the 0-to-1 journey in Cohort-2, I went on to build
-            a full-stack project called "PlanIt", a project management platform.
-            Following that, I delved into advanced state management tools like
-            Redux and Zustand, and also explored React Hook Form for efficient
-            form handling in React.
+            a full-stack project called &quot;PlanIt&quot;, a project management
+            platform. Following that, I delved into advanced state management
+            tools like Redux and Zustand, and also explored React Hook Form for
+            efficient form handling in React.
           </p>
 
           <div className="grid grid-cols-1">
-            <img
+            <Image
               src="/projects/FS-1.png"
               alt="hero template"
               width={500}
@@ -261,12 +261,12 @@ export function TimeLineSection() {
             After building a full-stack project, I found myself looking for
             something new and exciting to explore. That&apos;s when I began my
             mobile development journey with React Native. Since then, I&apos;ve
-            built two applications: "Pill-Buddy", a medicine reminder app, and
-            "TrackMate", a habit tracker application.
+            built two applications: &quot;Pill-Buddy&quot;, a medicine reminder
+            app, and &quot;TrackMate&quot;, a habit tracker application.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
-            <img
+            <Image
               src="/projects/RN-1.png"
               alt="hero template"
               width={500}
@@ -274,7 +274,7 @@ export function TimeLineSection() {
               className="h-28 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60 dark:border dark:border-gray-600"
             />
 
-            <img
+            <Image
               src="/projects/RN-2.png"
               alt="feature template"
               width={500}
@@ -286,15 +286,15 @@ export function TimeLineSection() {
           <p className="mb-8 font-normal text-neutral-800 text-sm md:text-base dark:text-gray-400 mt-12">
             After building full-stack mobile applications with React Native, I
             shifted my focus back to web development and created two full-stack
-            SaaS applications using Next.js. The first, "Anonify", is an
-            anonymous messaging platform that allows content creators to engage
-            with their audience. The second, "FrameDrop", is a media utility
-            SaaS that offers image cropping and video compression features,
-            powered by Cloudinary.
+            SaaS applications using Next.js. The first, &quot;Anonify&quot;, is
+            an anonymous messaging platform that allows content creators to
+            engage with their audience. The second, &quot;FrameDrop&quot;, is a
+            media utility SaaS that offers image cropping and video compression
+            features, powered by Cloudinary.
           </p>
 
           <div className="grid grid-cols-1 gap-4">
-            <img
+            <Image
               src="/projects/SAAS-1.png"
               alt="hero template"
               width={500}
@@ -302,7 +302,7 @@ export function TimeLineSection() {
               className="h-40 w-full rounded-lg object-fill shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60 dark:border dark:border-gray-600"
             />
 
-            <img
+            <Image
               src="/projects/SAAS-2.png"
               alt="feature template"
               width={500}
@@ -347,7 +347,7 @@ export function TimeLineSection() {
       title: "Present",
       content: (
         <div>
-           <p className="mb-8 font-normal text-neutral-800 text-sm md:text-base dark:text-gray-400">
+          <p className="mb-8 font-normal text-neutral-800 text-sm md:text-base dark:text-gray-400">
             I&apos;m currently focused on expanding my backend expertise by
             learning modern technologies such as NestJS and Django, along with
             diving deeper into DevOps and infrastructure management. My goal is

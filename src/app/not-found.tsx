@@ -35,7 +35,7 @@ export default function NotFound() {
           </FuzzyText>
 
           <p className="prose max-w-72 md:max-w-96 text-sm text-justify text-gray-500 dark:text-gray-400">
-            Oops! The page you're looking for doesn't exist. It might have been
+            Oops! The page you&apos;re looking for doesn&apos;t exist. It might have been
             moved, deleted, or you entered the wrong URL.
           </p>
         </div>

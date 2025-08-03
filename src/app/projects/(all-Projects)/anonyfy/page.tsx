@@ -173,7 +173,7 @@ export default function AnonyfyPage() {
 
             <p className="mb-4 max-sm:text-sm text-neutral-500 dark:text-neutral-400">
               For detailed installation and configuration steps, please visit
-              the Anonyfy's{" "}
+              the Anonyfy&apos;s{" "}
               <Link
                 href="https://github.com/AmithBV0606/Anonyfy"
                 target="_blank"

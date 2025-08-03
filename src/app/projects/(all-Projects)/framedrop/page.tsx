@@ -175,7 +175,7 @@ export default function FrmaeDropPage() {
 
             <p className="mb-4 max-sm:text-sm text-neutral-500 dark:text-neutral-400">
               For detailed installation and configuration steps, please visit
-              the FrameDrop's{" "}
+              the FrameDrop&apos;s{" "}
               <Link
                 href="https://github.com/AmithBV0606/FrameDrop"
                 target="_blank"

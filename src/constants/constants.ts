@@ -1,5 +1,5 @@
 import type { IconMap, SocialLink, Site, Technologies, NavLink } from '@/types/index';
-import { Github, Mail, PhoneCall, Instagram, Rss, LinkedinIcon } from "lucide-react";
+import { Github, Mail, Instagram, Rss, LinkedinIcon } from "lucide-react";
 
 export const SITE: Site = {
   title: 'Amith B V',

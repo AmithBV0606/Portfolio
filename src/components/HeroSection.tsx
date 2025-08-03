@@ -21,12 +21,15 @@ const HeroSection = () => {
             {SITE.title}
           </h1>
 
-          <div className="mt-4 flex items-center justify-center md:justify-normal gap-2" aria-label="location">
+          <div
+            className="mt-4 flex items-center justify-center md:justify-normal gap-2"
+            aria-label="location"
+          >
             <span className="bg-[#63493e] dark:bg-[#fcdfc1] text-primary-foreground ring-primary/30 rounded-full px-3 py-1 text-sm font-thin ring-1">
-              I'm from
+              I&apos;m from
             </span>
 
-            <span className=""> {SITE.location}</span>
+            <span> {SITE.location}</span>
 
             <span className="text-2xl">🇮🇳</span>
           </div>
