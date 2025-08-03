@@ -35,7 +35,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleResize = debounce(() => {
-      const isMobileView = window.matchMedia("(max-width: 760px)").matches;
+      const isMobileView = window.matchMedia("(max-width: 1020px)").matches;
       setIsMobile(isMobileView);
       if (!isMobileView && mobileMenuOpen) {
         setMobileMenuOpen(false);
@@ -122,7 +122,7 @@ const Navbar = () => {
           "fixed left-1/2 z-50 -translate-x-1/2 transform backdrop-blur-lg",
           "bg-background/80 border-0",
           "rounded-none shadow-none transition-all duration-300 ease-in-out",
-          "border border-transparent w-full mt-3 md:mt-1",
+          "border border-transparent w-full",
           isScrolled && !isMobile && "rounded-full",
           isScrolled && !isMobile && "backdrop-blur-md",
           isScrolled && !isMobile && "border-foreground/10",
@@ -162,7 +162,7 @@ const Navbar = () => {
 
           <div className="flex items-center gap-2 md:gap-4">
             <nav
-              className="hidden items-center gap-6 md:flex"
+              className="hidden items-center gap-6 lg:flex"
               aria-label="Main navigation"
               role="navigation"
             >
