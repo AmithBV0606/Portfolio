@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "^1.2.3",
+    "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-scroll-area": "^1.2.9",
     "@radix-ui/react-separator": "^1.1.7",
     "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-visually-hidden": "^1.2.3",
     "@tabler/icons-react": "^3.34.1",
     "@types/lodash.debounce": "^4.0.9",
     "class-variance-authority": "^0.7.1",
