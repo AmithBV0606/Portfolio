@@ -1,5 +1,5 @@
 import type { IconMap, SocialLink, Site, Technologies, NavLink } from '@/types/index';
-import { Github, Mail, Instagram, Rss, LinkedinIcon } from "lucide-react";
+import { Github, Mail, Instagram, LinkedinIcon } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 
 export const SITE: Site = {
