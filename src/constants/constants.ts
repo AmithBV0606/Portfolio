@@ -21,8 +21,8 @@ export const NAV_LINKS: NavLink[] = [
     label: 'projects',
   },
   {
-    href: '/blog',
-    label: 'blog',
+    href: '/experience',
+    label: 'experience',
   },
 ]
 
