@@ -32,7 +32,7 @@ const HeroSection = () => {
           </div>
 
           <p
-            className="text-md text-gray-400 font-[200] mt-4 text-justify px-2"
+            className="text-md text-neutral-700 dark:text-gray-400 font-[200] mt-4 text-justify px-2"
             title="description"
             aria-label="description"
           >
