@@ -4,6 +4,7 @@ import "./globals.css";
 // import "./typography.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/Navbar";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const clashDisplay = localFont({
   src: [
@@ -63,6 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <body className={clashDisplay.className}>
+        <GoogleAnalytics gaId="G-8NSB9FZX52" />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
